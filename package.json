@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "element-react": "^1.4.33",
     "element-theme-default": "^1.4.13",
+    "js-cookie": "^2.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
@@ -32,6 +34,7 @@
     ]
   },
   "devDependencies": {
+    "js-md5": "^0.7.3",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "sass-resources-loader": "^2.0.0"

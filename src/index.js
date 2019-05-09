@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import RouterIndex from './router'
+import 'element-theme-default'
 import './index.css';
 import * as serviceWorker from './serviceWorker'
 ReactDOM.render(
-        <div>
-            <RouterIndex />
-        </div>,
+        <RouterIndex />,
     document.getElementById('root')
 );
 

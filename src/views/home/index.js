@@ -1,10 +1,8 @@
 import React, {Component} from 'react'
 import { Button } from 'element-react'
-import 'element-theme-default';
-// import './home.scss'
+import './home.scss'
 
 class Home extends Component {
-    // eslint-disable-next-line no-useless-constructor
     constructor (props) {
         super(props)
         this.handleClick = this.handleClick.bind(this)
