@@ -35,6 +35,7 @@ export function getValidToken(params) {
       arr.push(key)
     }
     arr.sort()
+    // eslint-disable-next-line
     arr.map(item => {
       if (params[item] !== undefined && params[item] != null) {
         str += params[item]

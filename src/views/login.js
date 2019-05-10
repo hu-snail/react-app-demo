@@ -12,7 +12,6 @@ class Home extends Component {
         this.handleLogin = this.handleLogin.bind(this)
     }
     handleLogin() {
-        console.log(11)
         API.login(this.getParama()).then(res => {
             console.log(res)
         })

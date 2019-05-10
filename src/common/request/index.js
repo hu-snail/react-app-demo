@@ -1,5 +1,4 @@
 import axios from 'axios'
-import { Message } from 'element-react'
 import qs from 'qs'
 import { deepClone } from '../../utils/utils'
 import { getToken } from './cookie'
