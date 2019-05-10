@@ -1,6 +1,6 @@
 ## 使用create-react-app脚手架搭建项目
 
-[TOC]
+[toc]
 
 > 技术栈版本号：
 >

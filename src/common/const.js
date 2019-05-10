@@ -1,5 +1,5 @@
 // 常量设置
-export const ENV_URL = 'http://47.97.32.172:8099/'
+export const ENV_URL = 'xxx'
 export const PRO_URL = 'xxx'
 
 // 请求方式配置
