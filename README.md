@@ -36,41 +36,41 @@
 
 ```json
 |- react-app 根目录
-    |- node-modules 依赖包文件
-    |- public 公共资源文件夹
-    	 |- index.html 页面模版，不可删除
-    	 |- mainifest.json 移动端配置文件
-    |- src 源码文件夹
-			 |- assets 静态资源文件
-					|- scss scss预编译文件夹
-						 |- theme.scss 主题配置文件
-						 |- reset.scss 浏览器重置文件
-						 |- customComponent.scss 自定义组件公共样式文件
-						 |- eleReset.scss element-react UI样式重置样式文件
-						 |- minxs.scss 混合模式
-						 |- common.scss 公共样式文件
-						 |- style.scss 主要样式文件
-					|- images 图片资源文件夹
-					|- fonts 字体图标文件夹
-			 |- common js公共库文件夹
-					|- requect http请求相关
-					|- |- api.js 接口文件
-					|- |- config.js 请求配置
-					|- |- cookie.js cookiep文件
-					|- |- index.js axios封装
-					|- const.js 公共常量配置文件
+   |- node-modules 依赖包文件
+   |- public 公共资源文件夹
+      |- index.html 页面模版，不可删除
+      |- mainifest.json 移动端配置文件
+   |- src 源码文件夹
+      |- assets 静态资源文件
+	 |- scss scss预编译文件夹
+	    |- theme.scss 主题配置文件
+	    |- reset.scss 浏览器重置文件
+	    |- customComponent.scss 自定义组件公共样式文件
+	    |- eleReset.scss element-react UI样式重置样式文件
+	    |- minxs.scss 混合模式
+	    |- common.scss 公共样式文件
+	    |- style.scss 主要样式文件
+	 |- images 图片资源文件夹
+	 |- fonts 字体图标文件夹
+       |- common js公共库文件夹
+	  |- requect http请求相关
+	  |- |- api.js 接口文件
+	  |- |- config.js 请求配置
+	  |- |- cookie.js cookiep文件
+	  |- |- index.js axios封装
+	  |- const.js 公共常量配置文件
        |- components 公共组件文件夹
-			 |- utils js工具类文件夹
-					|- utils.js 常用工具类封装文件
-					|- eleUtil.js 饿了么element-react UI库封装
+	  |- utils js工具类文件夹
+	     |- utils.js 常用工具类封装文件
+	     |- eleUtil.js 饿了么element-react UI库封装
        |- views 所有页面文件夹
           |- home 首页文件夹
           |- |- index.js
           |- detail 详情文件夹
           |- |- index.js
-			 |- router 路由文件夹
-					|- index.js
-			 |- index.js js入口文件
+       |- router 路由文件夹
+	  |- index.js
+       |- index.js js入口文件
 		
 ```
 
